@@ -1,0 +1,43 @@
+{
+  "name": "aeci-mmu-mobile-server",
+  "version": "1.0.0",
+  "description": "Mobile server for AECI MMU Companion credential verification, data syncing and storage",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "install-termux": "npm install --production",
+    "setup-termux": "node setup-termux.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "sqlite3": "^5.1.6",
+    "multer": "^1.4.5-lts.1",
+    "express-rate-limit": "^6.8.1",
+    "compression": "^1.7.4",
+    "morgan": "^1.10.0",
+    "node-cron": "^3.0.2",
+    "uuid": "^9.0.0",
+    "express-validator": "^7.0.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "mobile-server",
+    "android",
+    "authentication",
+    "data-sync",
+    "termux"
+  ],
+  "author": "AECI MMU Companion",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+} 

@@ -1,0 +1,180 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">AECI MMU Companion</string>
+    <string name="app_description">Digital mining operations and maintenance companion</string>
+    
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_forms">Forms</string>
+    <string name="nav_equipment">Equipment</string>
+    <string name="nav_reports">Reports</string>
+    <string name="nav_settings">Settings</string>
+    
+    <!-- Authentication -->
+    <string name="login_title">Sign In</string>
+    <string name="login_subtitle">Access your mining operations</string>
+    <string name="email_hint">Email or Employee ID</string>
+    <string name="password_hint">Password</string>
+    <string name="site_selection_hint">Select Site</string>
+    <string name="login_button">Sign In</string>
+    <string name="login_offline">Continue Offline</string>
+    <string name="login_error">Invalid credentials</string>
+    <string name="login_network_error">Network connection required for first login</string>
+    <string name="logout">Sign Out</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard_millwright">Millwright Dashboard</string>
+    <string name="dashboard_admin">Admin Dashboard</string>
+    <string name="dashboard_equipment">Equipment Dashboard</string>
+    <string name="equipment_overview">Equipment Overview</string>
+    <string name="maintenance_alerts">Maintenance Alerts</string>
+    <string name="today_tasks">Today\'s Tasks</string>
+    <string name="clock_in">Clock In</string>
+    <string name="clock_out">Clock Out</string>
+    <string name="attendance">Attendance</string>
+    
+    <!-- Equipment Status -->
+    <string name="status_operational">Operational</string>
+    <string name="status_maintenance_due">Maintenance Due</string>
+    <string name="status_breakdown">Breakdown</string>
+    <string name="status_out_of_service">Out of Service</string>
+    
+    <!-- Forms -->
+    <string name="form_pump_inspection_90day">90 Day Pump Inspection</string>
+    <string name="form_availability_utilization">Availability &amp; Utilization</string>
+    <string name="form_blast_hole_log">Blast Hole Log</string>
+    <string name="form_bowie_weekly">Bowie Pump Weekly</string>
+    <string name="form_fire_extinguisher">Fire Extinguisher Inspection</string>
+    <string name="form_job_card">Job Card</string>
+    <string name="form_chassis_maintenance">MMU Chassis Maintenance</string>
+    <string name="form_handover_certificate">MMU Handover Certificate</string>
+    <string name="form_production_log">MMU Production Daily Log</string>
+    <string name="form_quality_report">MMU Quality Report</string>
+    <string name="form_monthly_maintenance">Monthly Process Maintenance</string>
+    <string name="form_bench_inspection">On Bench MMU Inspection</string>
+    <string name="form_pressure_trip_test">PC Pump Pressure Trip Test</string>
+    <string name="form_pretask_assessment">Pre-Task Safety Assessment</string>
+    
+    <!-- Form Actions -->
+    <string name="form_save">Save</string>
+    <string name="form_submit">Submit</string>
+    <string name="form_cancel">Cancel</string>
+    <string name="form_export_pdf">Export PDF</string>
+    <string name="form_export_excel">Export Excel</string>
+    <string name="form_preview">Preview</string>
+    <string name="form_signature_capture">Capture Signature</string>
+    <string name="form_photo_capture">Take Photo</string>
+    <string name="form_required_field">Required field</string>
+    <string name="form_invalid_data">Please check the entered data</string>
+    <string name="form_saved_successfully">Form saved successfully</string>
+    <string name="form_submitted_successfully">Form submitted successfully</string>
+    
+    <!-- Export -->
+    <string name="export_generating">Generating export…</string>
+    <string name="export_success">Export completed successfully</string>
+    <string name="export_error">Export failed</string>
+    <string name="export_share">Share</string>
+    <string name="export_save">Save to Device</string>
+    
+    <!-- Sync -->
+    <string name="sync_in_progress">Syncing data…</string>
+    <string name="sync_completed">Sync completed</string>
+    <string name="sync_failed">Sync failed</string>
+    <string name="sync_pending">Pending sync</string>
+    <string name="offline_mode">Offline Mode</string>
+    <string name="online_mode">Online</string>
+    
+    <!-- Equipment -->
+    <string name="equipment_name">Equipment Name</string>
+    <string name="equipment_id">Equipment ID</string>
+    <string name="equipment_model">Model</string>
+    <string name="equipment_serial">Serial Number</string>
+    <string name="equipment_location">Location</string>
+    <string name="equipment_hours">Operating Hours</string>
+    <string name="equipment_last_service">Last Service</string>
+    <string name="equipment_next_service">Next Service</string>
+    <string name="equipment_view_details">View Details</string>
+    <string name="equipment_service_now">Service Now</string>
+    
+    <!-- Admin Functions -->
+    <string name="admin_users">Users</string>
+    <string name="admin_equipment">Equipment</string>
+    <string name="admin_reports">Reports</string>
+    <string name="admin_analytics">Analytics</string>
+    <string name="admin_tasks">Tasks</string>
+    <string name="admin_add_user">Add User</string>
+    <string name="admin_add_equipment">Add Equipment</string>
+    <string name="admin_assign_task">Assign Task</string>
+    
+    <!-- Validation Messages -->
+    <string name="validation_required">This field is required</string>
+    <string name="validation_email">Please enter a valid email</string>
+    <string name="validation_number">Please enter a valid number</string>
+    <string name="validation_date">Please enter a valid date</string>
+    <string name="validation_equipment_id">Please enter a valid equipment ID</string>
+    <string name="validation_positive_number">Number must be positive</string>
+    <string name="validation_range">Value must be between %1$s and %2$s</string>
+    <string name="validation_min_length">Must be at least %1$d characters</string>
+    <string name="validation_max_length">Must be at most %1$d characters</string>
+    
+    <!-- Error Messages -->
+    <string name="error_network">Network connection error</string>
+    <string name="error_server">Server error occurred</string>
+    <string name="error_unknown">An unknown error occurred</string>
+    <string name="error_permission_denied">Permission denied</string>
+    <string name="error_file_not_found">File not found</string>
+    <string name="error_storage_full">Storage space full</string>
+    
+    <!-- Common Actions -->
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_add">Add</string>
+    <string name="action_search">Search</string>
+    <string name="action_filter">Filter</string>
+    <string name="action_sort">Sort</string>
+    
+    <!-- Time and Date -->
+    <string name="date_format">dd/MM/yyyy</string>
+    <string name="time_format">HH:mm</string>
+    <string name="datetime_format">dd/MM/yyyy HH:mm</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="this_week">This Week</string>
+    <string name="last_week">Last Week</string>
+    <string name="this_month">This Month</string>
+    
+    <!-- Units -->
+    <string name="unit_hours">hours</string>
+    <string name="unit_meters">m</string>
+    <string name="unit_liters_per_minute">L/min</string>
+    <string name="unit_bar">Bar</string>
+    <string name="unit_celsius">°C</string>
+    <string name="unit_millimeters_per_second">mm/s</string>
+    <string name="unit_kilograms">kg</string>
+    <string name="unit_milliseconds">ms</string>
+    <string name="unit_percentage">%</string>
+    
+    <!-- Permissions -->
+    <string name="permission_camera_title">Camera Permission</string>
+    <string name="permission_camera_message">Camera access is required to capture photos for inspection reports</string>
+    <string name="permission_storage_title">Storage Permission</string>
+    <string name="permission_storage_message">Storage access is required to save and export reports</string>
+    <string name="permission_location_title">Location Permission</string>
+    <string name="permission_location_message">Location access is used to verify work site location</string>
+    <string name="permission_grant">Grant Permission</string>
+    <string name="permission_denied">Permission Denied</string>
+    
+    <!-- Content Descriptions for Accessibility -->
+    <string name="cd_logo">AECI Mining Logo</string>
+    <string name="cd_equipment_status">Equipment Status Indicator</string>
+    <string name="cd_sync_status">Synchronization Status</string>
+    <string name="cd_signature_pad">Signature Capture Area</string>
+    <string name="cd_photo_preview">Photo Preview</string>
+    <string name="cd_menu">Menu</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_close">Close</string>
+</resources>

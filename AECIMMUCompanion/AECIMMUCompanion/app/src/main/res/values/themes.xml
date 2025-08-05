@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.AECIMMUCompanion" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="colorPrimary">@color/aeci_red_primary</item>
+        <item name="colorPrimaryDark">@color/aeci_red_dark</item>
+        <item name="colorAccent">@color/aeci_red_light</item>
+        <item name="android:colorBackground">@color/aeci_white</item>
+        <item name="android:windowBackground">@color/aeci_white</item>
+        <item name="android:textColorPrimary">@color/aeci_black</item>
+        <item name="android:textColorSecondary">@color/aeci_grey_dark</item>
+        <item name="android:navigationBarColor">@color/aeci_red_primary</item>
+        <item name="android:statusBarColor">@color/aeci_red_dark</item>
+    </style>
+</resources>
