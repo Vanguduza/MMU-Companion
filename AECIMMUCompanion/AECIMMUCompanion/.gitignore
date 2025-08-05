@@ -102,11 +102,12 @@ lint/tmp/
 
 # PowerShell debug and build scripts (project specific)
 # *.ps1  # Commented out to allow auto-sync.ps1
-*.bat
+# *.bat  # Commented out to allow quick-sync.bat
 *.logcat
 
 # Allow specific automation scripts
 !auto-sync.ps1
+!quick-sync.bat
 !.github/workflows/*.yml
 
 # PDF documentation files
